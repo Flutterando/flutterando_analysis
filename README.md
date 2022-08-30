@@ -46,6 +46,7 @@
     <li><a href="#sponsors">Sponsors</a></li>
     <li><a href="#how-to-use">How to Use</a></li>
     <li><a href="#how-to-suppress-lints">How to Supress Lints</a></li>
+    <li><a href="#badge">Badge</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -159,6 +160,21 @@ linter:
 
 
 
+## Badge
+
+To indicate that your project is using `flutterando_analysis` you can use this badge: 
+
+<img src="https://img.shields.io/badge/style-flutterando__analysis-blueviolet">
+
+<br>
+
+Just copy and paste in your readme.md the code below: 
+```md
+[![style: Flutterando analysis](https://img.shields.io/badge/style-flutterando__analysis-blueviolet)](https://pub.dev/packages/flutterando_analysis)
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -204,11 +220,12 @@ Flutterando Community
 ## Acknowledgements 
 
 
-Thanks to the people who contributed to this project
+Thanks to the people who contributed to this project.
+Disclaimer: this project's readme was based on very_good_analysis package readme.  
 <br>
 
-<a href="https://github.com/flutterando/asuka/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=flutterando/asuka" />
+<a href="https://github.com/flutterando/flutterando_analysis/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=flutterando/flutterando_analysis" />
 </a>
 
 
@@ -228,29 +245,3 @@ Thanks to the people who contributed to this project
     Built and maintained by <a href="https://www.flutterando.com.br">Flutterando</a>.
   </p>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Badge
-
-To indicate that your project is using `flutterando_analysis` you can use this badge: 
-
-<img src="https://img.shields.io/badge/style-flutterando__analysis-blueviolet">
-
-<br>
-
-Just copy and paste in your readme.md the code below: 
-```md
-[![style: Flutterando analysis](https://img.shields.io/badge/style-flutterando__analysis-blueviolet)](https://pub.dev/packages/flutterando_analysis)
-```
