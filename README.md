@@ -11,65 +11,50 @@
   </a>
 
   <p align="center">
-   <b>
-   FLUTTERANDO Analysis
-   </b>
-   <br />
-    A Simple and Clean approach to Snackbars, Dialogs and ModalSheets in a single provider.
+    This package provides lint rules for Dart and Flutter which are used in 
+    <a href="https://pub.dev/publishers/flutterando.com.br/packages">Flutterando's</a> and <a href="https://fteam.dev">FTeam's</a> packages and projects. For more information, see the <a href="https://github.com/Flutterando/flutterando_analysis/blob/main/lib/analysis_options.0.0.1.yaml">complete list of options</a>.
     <br />
-    <!-- <a href="https://link da documentação"><strong>Explore the docs »</strong></a>
-    <br /> -->
     <br />
-    <!-- <a href="https://link para o demo">View Demo</a> -->
+    <a href="https://github.com/Flutterando/flutterando_analysis/issues/">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Flutterando/flutterando_analysis/issues">Request Feature</a>
   </p>
 
 <br>
 
 <!--  SHIELDS  ---->
 
-[![Version](https://img.shields.io/github/v/release/flutterando/asuka?style=plastic)](https://pub.dev/packages/asuka)
-[![License](https://img.shields.io/github/license/flutterando/asuka?style=plastic)](https://github.com/Flutterando/asuka/blob/master/LICENSE)
-[![Pub Points](https://img.shields.io/pub/points/asuka?label=pub%20points&style=plastic)](https://pub.dev/packages/asuka/score)
-[![Contributors](https://img.shields.io/github/contributors/flutterando/asuka?style=plastic)](https://github.com/Flutterando/asuka/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/flutterando/asuka?color=yellowgreen&logo=github&style=plastic)](https://github.com/Flutterando/asuka/graphs/contributors)
+[![Version](https://img.shields.io/github/v/release/flutterando/flutterando_analysis?style=plastic)](https://pub.dev/packages/flutterando_analysis)
+[![License](https://img.shields.io/github/license/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/blob/main/LICENSE)
+[![Pub Points](https://img.shields.io/pub/points/flutterando_analysis?label=pub%20points&style=plastic)](https://pub.dev/packages/flutterando_analysis/score)
+[![Contributors](https://img.shields.io/github/contributors/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/flutterando/flutterando_analysis?color=yellowgreen&logo=github&style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
 
 
 [![Pub Publisher](https://img.shields.io/pub/publisher/asuka?style=plastic)](https://pub.dev/publishers/flutterando.com.br/packages)
 [![Flutterando Youtube](https://img.shields.io/youtube/channel/subscribers/UCplT2lzN6MHlVHHLt6so39A?color=blue&label=Flutterando&logo=YouTube&logoColor=red&style=plastic)](https://www.youtube.com/flutterando)
 </div>
 
-<!----
-About Shields, some recommendations:
-+-+
-Build - GithubWorkflow ou Github Commit checks state
-CodeCoverage - Codecov
-Chat - Discord 
-License - Github
-Rating - Pub Likes, Pub Points and Pub Popularity (if still in early stages, we 		    recommend only Pub Points since it's controllable)
-Social - GitHub Forks, Github Org's Stars (if using Flutterando as the main org),  	    YouTube Channel Subscribers (Again, using Flutterando, as set in the   		    example)
---->
-
 <br>
 
+---
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#sponsors">Sponsors</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#how-to-use">How to Use</a></li>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#how-to-suppress-lints">How to Supress Lints</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+---
+
 
 <br>
 
@@ -79,10 +64,7 @@ Social - GitHub Forks, Github Org's Stars (if using Flutterando as the main org)
 
 <!-- PROJECT EXAMPLE (IMAGE) -->
 
-<br>
-<Center>
-<img src="example/Asuka.gif" alt="Asuka package working gif" width="400">
-</Center>
+
 
 <br>
 
@@ -98,7 +80,7 @@ With few and intuitive lines of code you can have those in your project in a lot
 ## Sponsors
 
 <a href="https://fteam.dev">
-    <img src="images/sponsor-logo.png" alt="Logo" width="120" style="aspect-ratio: 1/1; border-radius: 50%">
+    <img src="readme_assets/sponsor-logo.png" alt="Logo" width="120">
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,71 +88,76 @@ With few and intuitive lines of code you can have those in your project in a lot
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## How To Use
 
-To get Asuka in your project follow either of the instructions below:
+To use our linter rules import it to your project like this:
 
-a) Add Asuka as a dependency in your Pubspec.yaml:
- ```yaml
-   dependencies:
-     asuka: any
-``` 
+a) Adding the package as a dependency in your Pubspec.yaml:
+```yaml
+# Add it as a dev dependency
+dev_dependencies:
+  flutterando_analysis: ^0.0.1
 
-b) Use Dart Pub:
+# Or as a normal dependency if you need to
+dependencies: 
+  flutterando_analysis: ^0.0.1
+```
+
+b) Alternatively, use Dart Pub. You can take out the tag `--dev` if you want to install as a normal dependency:
 ```sh
-  dart pub add asuka
+  dart pub add --dev flutterando_analysis
 ```
 
+After importing it, add an include in your project's `analysis_options.yaml`:
+
+```yaml
+include: package:flutterando_analysis/dart/dart.yaml
+```
 <br>
 
 
-## How to Use
+## How To Suppress Lints
 
-Add the following code where you call your Material App:
 
-```dart
-import 'package:asuka/asuka.dart';
+There may be cases where specific lint rules are undesirable. Lint rules can be suppressed at the line, file, or project level.
 
-MaterialApp(
-    builder: Asuka.builder,
-    navigatorObservers: [
-       Asuka.asukaHeroController //This line is needed for the Hero widget to work
-    ],
-);
-``` 
-Now you just have to call the named constructors for each widget that you want to use: 
+An example use case for suppressing lint rules at the file level is suppressing the `prefer_const_constructors` in order to achieve 100% code coverage. This is due to the fact that const constructors are executed before the tests are run, resulting in no coverage collection.
+
+### Line Level
+
+To suppress a specific lint rule for a specific line of code, use an `ignore` comment directly above the line:
 
 ```dart
-import 'package:asuka/asuka.dart';
-
-Asuka.showSnackBar(SnackBar(
-    content: Text("Hello World"),
-));
-
-AsukaSnackbar.success("success").show();
+// ignore: public_member_api_docs
+class A {}
 ```
 
-<br>
+### File Level
 
-_For more examples, please refer to the_ 🚧 [Documentation]() _-Currently being updated-_ 🚧
+To suppress a specific lint rule of a specific file, use an `ignore_for_file` comment at the top of the file:
+
+```dart
+// ignore_for_file: public_member_api_docs
+
+class A {}
+
+class B {}
+```
+
+### Project Level
+
+To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
+
+```yaml
+include: package:flutterando_analysis/analysis_options.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-
-<!-- FEATURES -->
-## Features
-
-- ✅ Snackbars
-- ✅ Dialog
-- ✅ BottomSheet
-- ✅ ModalBottomSheet
-- ✅ Overlay 
-
-Right now this package has concluded all his intended features. If you have any suggestions or find something to report, see below how to contribute to it. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -181,14 +168,8 @@ Right now this package has concluded all his intended features. If you have any 
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the appropriate tag. 
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+If you have a suggestion that would make this better or questions, please open an issue here, with the appropriate tag. 
+Don't forget to give the project a star! Thanks!
 
 Remember to include a tag, and to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and [Semantic Versioning](https://semver.org/) when uploading your commit and/or creating the issue. 
 
@@ -218,23 +199,17 @@ Flutterando Community
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!----
-  TODO: Escrever as Contributing Guidelines
-->
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements 
 
 
-Thank you to all the people who contributed to this project, whitout you this project would not be here today.
-
+Thanks to the people who contributed to this project
 <br>
 
 <a href="https://github.com/flutterando/asuka/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=flutterando/asuka" />
 </a>
-<!-- Bot para Lista de contribuidores - https://allcontributors.org/  -->
-<!-- Opção (utilizada no momento): https://contrib.rocks/preview?repo=flutterando%2Fasuka -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -247,9 +222,35 @@ Thank you to all the people who contributed to this project, whitout you this pr
 <br>
 <p align="center">
   <a href="https://www.flutterando.com.br">
-    <img width="110px" src="images/logo-flutterando.png" style="border-radius: 50%;">
+    <img width="110px" src="readme_assets/logo-flutterando.png">
   </a>
   <p align="center">
     Built and maintained by <a href="https://www.flutterando.com.br">Flutterando</a>.
   </p>
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Badge
+
+To indicate that your project is using `flutterando_analysis` you can use this badge: 
+
+<img src="https://img.shields.io/badge/style-flutterando__analysis-blueviolet">
+
+<br>
+
+Just copy and paste in your readme.md the code below: 
+```md
+[![style: Flutterando analysis](https://img.shields.io/badge/style-flutterando__analysis-blueviolet)](https://pub.dev/packages/flutterando_analysis)
+```
