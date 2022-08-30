@@ -1,0 +1,10 @@
+name: flutterando_analysis
+version: 0.0.1
+description: Lint rules for Flutter used internally at Flutterando.
+repository: https://github.com/Flutterando/flutterando_analysis
+issue_tracker: https://github.com/Flutterando/flutterando_analysis/issues
+homepage: https://github.com/Flutterando/flutterando_analysis
+documentation: https://github.com/Flutterando/flutterando_analysis
+
+environment:
+  sdk: ">=2.10.5 <3.0.0"

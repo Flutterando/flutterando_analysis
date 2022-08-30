@@ -1,0 +1,8 @@
+# Recommended lints for Flutter packages
+
+
+include: package:flutterando_analysis/analysis_options.0.0.1.yaml
+
+
+linter:
+  rules:
