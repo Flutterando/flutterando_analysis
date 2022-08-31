@@ -12,7 +12,7 @@
 
   <p align="center">
     This package provides lint rules for Dart and Flutter which are used in 
-    <a href="https://pub.dev/publishers/flutterando.com.br/packages">Flutterando's</a> and <a href="https://fteam.dev">FTeam's</a> packages and projects. For more information, see the <a href="https://github.com/Flutterando/flutterando_analysis/blob/main/lib/analysis_options.0.0.1.yaml">complete list of options</a>.
+    <a href="https://pub.dev/publishers/flutterando.com.br/packages">Flutterando's</a> packages and projects. For more information, see the <a href="https://github.com/Flutterando/flutterando_analysis/blob/main/lib/analysis_options.0.0.1.yaml">complete list of options</a>.
     <br />
     <br />
     <a href="https://github.com/Flutterando/flutterando_analysis/issues/">Report Bug</a>
@@ -25,14 +25,11 @@
 <!--  SHIELDS  ---->
 
 [![Version](https://img.shields.io/github/v/release/flutterando/flutterando_analysis?style=plastic)](https://pub.dev/packages/flutterando_analysis)
-[![License](https://img.shields.io/github/license/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/blob/main/LICENSE)
 [![Pub Points](https://img.shields.io/pub/points/flutterando_analysis?label=pub%20points&style=plastic)](https://pub.dev/packages/flutterando_analysis/score)
-[![Contributors](https://img.shields.io/github/contributors/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/flutterando/flutterando_analysis?color=yellowgreen&logo=github&style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
+[![Pub Points](https://img.shields.io/badge/style-flutterando__analysis-blueviolet?style=plastic)](https://pub.dev/packages/flutterando_analysis/)
 
 
 [![Pub Publisher](https://img.shields.io/pub/publisher/asuka?style=plastic)](https://pub.dev/publishers/flutterando.com.br/packages)
-[![Flutterando Youtube](https://img.shields.io/youtube/channel/subscribers/UCplT2lzN6MHlVHHLt6so39A?color=blue&label=Flutterando&logo=YouTube&logoColor=red&style=plastic)](https://www.youtube.com/flutterando)
 </div>
 
 <br>
