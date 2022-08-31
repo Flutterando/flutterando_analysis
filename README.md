@@ -12,7 +12,7 @@
 
   <p align="center">
     This package provides lint rules for Dart and Flutter which are used in 
-    <a href="https://pub.dev/publishers/flutterando.com.br/packages">Flutterando's</a> and <a href="https://fteam.dev">FTeam's</a> packages and projects. For more information, see the <a href="https://github.com/Flutterando/flutterando_analysis/blob/main/lib/analysis_options.0.0.1.yaml">complete list of options</a>.
+    <a href="https://pub.dev/publishers/flutterando.com.br/packages">Flutterando's</a> packages and projects. For more information, see the <a href="https://github.com/Flutterando/flutterando_analysis/blob/main/lib/analysis_options.0.0.1.yaml">complete list of options</a>.
     <br />
     <br />
     <a href="https://github.com/Flutterando/flutterando_analysis/issues/">Report Bug</a>
@@ -25,14 +25,11 @@
 <!--  SHIELDS  ---->
 
 [![Version](https://img.shields.io/github/v/release/flutterando/flutterando_analysis?style=plastic)](https://pub.dev/packages/flutterando_analysis)
-[![License](https://img.shields.io/github/license/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/blob/main/LICENSE)
 [![Pub Points](https://img.shields.io/pub/points/flutterando_analysis?label=pub%20points&style=plastic)](https://pub.dev/packages/flutterando_analysis/score)
-[![Contributors](https://img.shields.io/github/contributors/flutterando/flutterando_analysis?style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/flutterando/flutterando_analysis?color=yellowgreen&logo=github&style=plastic)](https://github.com/Flutterando/flutterando_analysis/graphs/contributors)
+[![Pub Points](https://img.shields.io/badge/style-flutterando__analysis-blueviolet?style=plastic)](https://pub.dev/packages/flutterando_analysis/)
 
 
 [![Pub Publisher](https://img.shields.io/pub/publisher/asuka?style=plastic)](https://pub.dev/publishers/flutterando.com.br/packages)
-[![Flutterando Youtube](https://img.shields.io/youtube/channel/subscribers/UCplT2lzN6MHlVHHLt6so39A?color=blue&label=Flutterando&logo=YouTube&logoColor=red&style=plastic)](https://www.youtube.com/flutterando)
 </div>
 
 <br>
@@ -46,6 +43,7 @@
     <li><a href="#sponsors">Sponsors</a></li>
     <li><a href="#how-to-use">How to Use</a></li>
     <li><a href="#how-to-suppress-lints">How to Supress Lints</a></li>
+    <li><a href="#badge">Badge</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -159,6 +157,21 @@ linter:
 
 
 
+## Badge
+
+To indicate that your project is using `flutterando_analysis` you can use this badge: 
+
+<img src="https://img.shields.io/badge/style-flutterando__analysis-blueviolet">
+
+<br>
+
+Just copy and paste in your readme.md the code below: 
+```md
+[![style: Flutterando analysis](https://img.shields.io/badge/style-flutterando__analysis-blueviolet)](https://pub.dev/packages/flutterando_analysis)
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -204,11 +217,12 @@ Flutterando Community
 ## Acknowledgements 
 
 
-Thanks to the people who contributed to this project
+Thanks to the people who contributed to this project.
+Disclaimer: this project's readme was based on very_good_analysis package readme.  
 <br>
 
-<a href="https://github.com/flutterando/asuka/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=flutterando/asuka" />
+<a href="https://github.com/flutterando/flutterando_analysis/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=flutterando/flutterando_analysis" />
 </a>
 
 
@@ -228,29 +242,3 @@ Thanks to the people who contributed to this project
     Built and maintained by <a href="https://www.flutterando.com.br">Flutterando</a>.
   </p>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Badge
-
-To indicate that your project is using `flutterando_analysis` you can use this badge: 
-
-<img src="https://img.shields.io/badge/style-flutterando__analysis-blueviolet">
-
-<br>
-
-Just copy and paste in your readme.md the code below: 
-```md
-[![style: Flutterando analysis](https://img.shields.io/badge/style-flutterando__analysis-blueviolet)](https://pub.dev/packages/flutterando_analysis)
-```
