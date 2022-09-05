@@ -1,0 +1,13 @@
+screenshots
+docs
+/**/build
+.secret
+.secrets
+.env
+.vscode
+.idea
+.gitignore
+.pubignore
+.git/
+.github/
+.gitignore
