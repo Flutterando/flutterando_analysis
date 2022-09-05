@@ -45,7 +45,6 @@
     <li><a href="#how-to-suppress-lints">How to Supress Lints</a></li>
     <li><a href="#badge">Badge</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -71,6 +70,7 @@
 Asuka is a Dart package that aims to simplify and keep a clean approach when implementing some visual elements from Flutter like Snackbars, Dialogs and ModalSheets. 
 With few and intuitive lines of code you can have those in your project in a lot less time than  
 
+<i>This project is distributed under the MIT License. See `LICENSE.txt` for more information.</i>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,6 +156,7 @@ linter:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<br> 
 
 ## Badge
 
@@ -189,16 +190,6 @@ Remember to include a tag, and to follow [Conventional Commits](https://www.conv
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -218,7 +209,9 @@ Flutterando Community
 
 
 Thanks to the people who contributed to this project.
-Disclaimer: this project's readme was based on very_good_analysis package readme.  
+
+<i>Disclaimer: this project's readme was based on very_good_analysis' readme.</i>
+
 <br>
 
 <a href="https://github.com/flutterando/flutterando_analysis/graphs/contributors">
@@ -231,9 +224,8 @@ Disclaimer: this project's readme was based on very_good_analysis package readme
 <!-- MANTAINED BY -->
 ## Maintaned by
 
----
-
 <br>
+
 <p align="center">
   <a href="https://www.flutterando.com.br">
     <img width="110px" src="readme_assets/logo-flutterando.png">
