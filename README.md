@@ -6,8 +6,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://pub.dev/packages/asuka">
-    <img src="readme_assets/logo.png" alt="Logo" width="180">
+  <a href="https://pub.dev/packages/flutterando_analysis">
+    <img src="https://raw.githubusercontent.com/Flutterando/flutterando_analysis/main/readme_assets/logo.png" alt="Logo" width="180">
   </a>
 
   <p align="center">
@@ -29,7 +29,7 @@
 [![Pub Points](https://img.shields.io/badge/style-flutterando__analysis-blueviolet?style=plastic)](https://pub.dev/packages/flutterando_analysis/)
 
 
-[![Pub Publisher](https://img.shields.io/pub/publisher/asuka?style=plastic)](https://pub.dev/publishers/flutterando.com.br/packages)
+[![Pub Publisher](https://img.shields.io/pub/publisher/flutterando_analysis?style=plastic)](https://pub.dev/publishers/flutterando.com.br/packages)
 </div>
 
 <br>
@@ -67,8 +67,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-Asuka is a Dart package that aims to simplify and keep a clean approach when implementing some visual elements from Flutter like Snackbars, Dialogs and ModalSheets. 
-With few and intuitive lines of code you can have those in your project in a lot less time than  
+Flutterando Analysis are a set of Flutter and Dart Lint rules that are the basis of our projects here at the community. They were inspired and selected from our work experience with other companies, and are backed up by several senior Flutter developers that can guarantee it's usefullness. 
 
 <i>This project is distributed under the MIT License. See `LICENSE.txt` for more information.</i>
 
@@ -78,7 +77,7 @@ With few and intuitive lines of code you can have those in your project in a lot
 ## Sponsors
 
 <a href="https://fteam.dev">
-    <img src="readme_assets/sponsor-logo.png" alt="Logo" width="120">
+    <img src="https://raw.githubusercontent.com/Flutterando/flutterando_analysis/main/readme_assets/sponsor-logo.png" alt="Logo" width="120">
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,7 +177,7 @@ Just copy and paste in your readme.md the code below:
 <!-- CONTRIBUTING -->
 ## Contributing
  
-🚧 [Contributing Guidelines]() - _Currently being updated_ 🚧
+<!-- 🚧 [Contributing Guidelines]() - _Currently being updated_ 🚧 -->
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -228,7 +227,7 @@ Thanks to the people who contributed to this project.
 
 <p align="center">
   <a href="https://www.flutterando.com.br">
-    <img width="110px" src="readme_assets/logo-flutterando.png">
+    <img width="110px" src="https://raw.githubusercontent.com/Flutterando/flutterando_analysis/main/readme_assets/logo-flutterando.png">
   </a>
   <p align="center">
     Built and maintained by <a href="https://www.flutterando.com.br">Flutterando</a>.
