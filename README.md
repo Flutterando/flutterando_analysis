@@ -77,7 +77,7 @@ Flutterando Analysis are a set of Flutter and Dart Lint rules that are the basis
 ## Sponsors
 
 <a href="https://fteam.dev">
-    <img src="readme_assets/sponsor-logo.png" alt="Logo" width="120">
+    <img src="https://raw.githubusercontent.com/Flutterando/flutterando_analysis/main/readme_assets/sponsor-logo.png" alt="Logo" width="120">
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -227,7 +227,7 @@ Thanks to the people who contributed to this project.
 
 <p align="center">
   <a href="https://www.flutterando.com.br">
-    <img width="110px" src="readme_assets/logo-flutterando.png">
+    <img width="110px" src="https://raw.githubusercontent.com/Flutterando/flutterando_analysis/main/readme_assets/logo-flutterando.png">
   </a>
   <p align="center">
     Built and maintained by <a href="https://www.flutterando.com.br">Flutterando</a>.
