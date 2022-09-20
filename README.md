@@ -108,8 +108,17 @@ b) Alternatively, use Dart Pub. You can take out the tag `--dev` if you want to 
 After importing it, add an include in your project's `analysis_options.yaml`:
 
 ```yaml
-include: package:flutterando_analysis/dart/dart.yaml
+include: package:flutterando_analysis/dart.yaml
 ```
+
+or, for example
+
+```yaml
+include: package:flutterando_analysis/flutter_package.yaml
+```
+
+There are 4 sets of linter rules that you can choose from, divided between Dart and Flutter and if it's a project or a package. See the files for more information.
+
 <br>
 
 
