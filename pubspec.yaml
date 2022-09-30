@@ -1,5 +1,5 @@
 name: flutterando_analysis
-version: 0.0.1
+version: 0.0.1+2
 description: Lint rules for Flutter and Dart, created for the open source projects of the Flutterando Community.
 repository: https://github.com/Flutterando/flutterando_analysis
 issue_tracker: https://github.com/Flutterando/flutterando_analysis/issues
