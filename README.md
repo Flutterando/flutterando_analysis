@@ -108,16 +108,24 @@ b) Alternatively, use Dart Pub. You can take out the tag `--dev` if you want to 
 After importing it, add an include in your project's `analysis_options.yaml`:
 
 ```yaml
-include: package:flutterando_analysis/flutter_package.yaml
+include: package:flutterando_analysis/flutter.yaml
 ```
 
-or, for example
+or, for Dart:
 
 ```yaml
 include: package:flutterando_analysis/dart.yaml
 ```
 
-There are 4 sets of linter rules that you can choose from, divided between Dart and Flutter and if it's a project or a package. See the files for more information.
+There are 4 sets of linter rules that you can choose from:
+- dart.yaml
+- flutter.yaml
+
+- dart_package.yaml
+- flutter_package.yaml
+(this second set has the rule "public_member_api_docs" set to True)
+
+See also the analysis_options.0.0.1.yaml to know which rules we are using. 
 
 <br>
 
@@ -154,8 +162,9 @@ class B {}
 
 To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
 
+Example (change flutterando_analysis.yaml for the analysis file you are using, like in the Getting Started section above):
 ```yaml
-include: package:flutterando_analysis/analysis_options.yaml
+include: package:flutterando_analysis/flutterando_analysis.yaml
 linter:
   rules:
     public_member_api_docs: false
@@ -185,8 +194,6 @@ Just copy and paste in your readme.md the code below:
 
 <!-- CONTRIBUTING -->
 ## Contributing
- 
-<!-- 🚧 [Contributing Guidelines]() - _Currently being updated_ 🚧 -->
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
