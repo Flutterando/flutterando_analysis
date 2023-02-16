@@ -93,11 +93,11 @@ a) Adding the package as a dependency in your Pubspec.yaml:
 ```yaml
 # Add it as a dev dependency
 dev_dependencies:
-  flutterando_analysis: ^0.0.1
+  flutterando_analysis: ^0.0.2
 
 # Or as a normal dependency if you need to
 dependencies: 
-  flutterando_analysis: ^0.0.1
+  flutterando_analysis: ^0.0.2
 ```
 
 b) Alternatively, use Dart Pub. You can take out the tag `--dev` if you want to install as a normal dependency:
